@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>eStudy AI Learning Mentor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="header">
+            <h1>eStudy AI Learning Mentor</h1>
+
+            <p>
+                Start your conversation with Steve, your AI Learning Mentor.
+            </p>
+        </header>
+
+
+        <section class="mentor-section">
+
+            <div class="avatar-container">
+
+                <script src="https://unpkg.com/@tavus/embed@latest"></script>
+
+                <tavus-embed
+                    deployment-id="f8dde7d9-d546-4765-a844-0f78088e4064">
+                </tavus-embed>
+
+            </div>
+
+
+            <div class="completion-section">
+
+                <p>
+                    Once you have completed your mentor session,
+                    select the button below.
+                </p>
+
+                <button
+                    id="completeButton"
+                    type="button"
+                    onclick="completeSCORM()">
+
+                    Complete Mentor Session
+
+                </button>
+
+                <p
+                    id="completionMessage"
+                    class="completion-message">
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="scorm.js"></script>
+
+</body>
+
+</html>

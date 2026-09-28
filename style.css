@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background: #f7f9fc;
+    color: #052B66;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.header {
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    margin: 0 0 10px;
+
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.header p {
+    margin: 0;
+
+    color: #555;
+    font-size: 16px;
+}
+
+.mentor-section {
+    width: 100%;
+}
+
+.avatar-container {
+    width: 100%;
+    min-height: 700px;
+
+    background: #ffffff;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+tavus-embed {
+    display: block;
+
+    width: 100%;
+    min-height: 700px;
+}
+
+.completion-section {
+    margin-top: 20px;
+
+    padding: 20px;
+
+    background: #ffffff;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.completion-section p {
+    margin-top: 0;
+
+    color: #555;
+}
+
+#completeButton {
+    padding: 12px 24px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #052B66;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: opacity 0.2s ease;
+}
+
+#completeButton:hover {
+    opacity: 0.9;
+}
+
+#completeButton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.completion-message {
+    margin-top: 15px !important;
+
+    font-weight: 600;
+
+    color: #2e7d32 !important;
+}

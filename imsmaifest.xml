@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest
+    identifier="ESTUDY_TAVUS_MENTOR"
+    version="1.0"
+    xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+    xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.imsproject.org/xsd/imscp_rootv1p1p2
+        http://www.imsglobal.org/xsd/imscp_v1p1/imscp_v1p1.xsd
+        http://www.adlnet.org/xsd/adlcp_rootv1p2
+        http://www.adlnet.org/xsd/adlcp_v1p2/adlcp_v1p2.xsd">
+
+    <organizations default="ORG-ESTUDY">
+
+        <organization identifier="ORG-ESTUDY">
+
+            <title>
+                eStudy AI Learning Mentor
+            </title>
+
+            <item
+                identifier="ITEM-STEVE"
+                identifierref="RESOURCE-STEVE">
+
+                <title>
+                    AI Learning Mentor - Steve
+                </title>
+
+            </item>
+
+        </organization>
+
+    </organizations>
+
+
+    <resources>
+
+        <resource
+            identifier="RESOURCE-STEVE"
+            type="webcontent"
+            adlcp:scormtype="sco"
+            href="index.html">
+
+            <file href="index.html" />
+
+            <file href="style.css" />
+
+            <file href="scorm.js" />
+
+        </resource>
+
+    </resources>
+
+</manifest>
